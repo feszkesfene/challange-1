@@ -7,7 +7,7 @@
 }
 
 .icon {
-   display: inline-block;
+   display: block;
    position: absolute;
    z-index: 10;
 
@@ -32,16 +32,12 @@
 
     background-color: #fff;
     border-radius: 2rem;
-    width: 35rem;
+    width: 32.5rem;
     overflow: hidden;
 
     &__image {
         background-image: url(/images/bg-pattern-card.svg);
         background-size: cover;
-    }
-
-    &__photo {
-        
     }
 
     &__user {
@@ -50,6 +46,23 @@
         align-items: center;
         justify-content: center;
 
+        position: relative;
+    }
+
+    &__photo-user {
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        border: solid 5px #fff;
+        height: 11rem;
+        width: 11rem;
+        transform: translateY(-8rem);
+        z-index: 100;        
+        //padding: 0;
+    }
+
+    &__name {
+        padding-top: 5rem;
     }
 
     &__stats {
@@ -63,7 +76,7 @@
     &__boxes {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 2rem;
+        grid-column-gap: 2.5rem;
 
         div {  
             
