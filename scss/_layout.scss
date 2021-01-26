@@ -32,12 +32,16 @@
 
     background-color: #fff;
     border-radius: 2rem;
-    width: 30rem;
+    width: 35rem;
     overflow: hidden;
 
     &__image {
         background-image: url(/images/bg-pattern-card.svg);
         background-size: cover;
+    }
+
+    &__photo {
+        
     }
 
     &__user {
@@ -49,12 +53,27 @@
     }
 
     &__stats {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        border-top: solid 1px $color-neutral-light;
+    }
+
+    &__boxes {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 2rem;
 
-        border-top: solid 1px $color-neutral-light;
+        div {  
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-        
+            //padding: 2rem 0;
+        }
     }
 }
 
