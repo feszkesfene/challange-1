@@ -1,0 +1,19 @@
+.heading-1 {
+    font-size: $font-heading;
+    color: $color-primary-2;
+    font-weight: 700;
+
+    span {
+        font-weight: 400;
+        color: $color-neutral;
+    }
+}
+
+.card__place {
+    font-size: 1.4rem;
+}
+
+.p-stats {
+    font-size: $font-small;
+}
+

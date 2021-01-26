@@ -93,4 +93,23 @@ body {
       grid-template-columns: repeat(3, 1fr);
   border-top: solid 1px #bfbfbf;
 }
+
+.heading-1 {
+  font-size: 1.8rem;
+  color: #2d3248;
+  font-weight: 700;
+}
+
+.heading-1 span {
+  font-weight: 400;
+  color: #969696;
+}
+
+.card__place {
+  font-size: 1.4rem;
+}
+
+.p-stats {
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=main.css.map */
