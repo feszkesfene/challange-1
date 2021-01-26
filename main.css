@@ -24,12 +24,14 @@ body {
 
 .container {
   position: relative;
-  width: 100%;
+  max-width: 100vw;
+  z-index: 1;
 }
 
 .icon {
   display: inline-block;
   position: absolute;
+  z-index: 10;
 }
 
 .icon--top {
@@ -40,5 +42,16 @@ body {
 .icon--bottom {
   top: 30em;
   left: 50rem;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: #fff;
+  border-radius: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
