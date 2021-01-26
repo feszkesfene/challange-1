@@ -18,5 +18,27 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #969696;
+  background-color: #19a2ae;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.icon {
+  display: inline-block;
+  position: absolute;
+}
+
+.icon--top {
+  top: -50rem;
+  left: -30rem;
+}
+
+.icon--bottom {
+  top: 30em;
+  left: 50rem;
 }
 /*# sourceMappingURL=main.css.map */
