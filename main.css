@@ -69,6 +69,8 @@ body {
   border-radius: 2rem;
   width: 32.5rem;
   overflow: hidden;
+  -webkit-box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.15);
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 13rem 15rem;
@@ -102,8 +104,8 @@ body {
   position: absolute;
   border-radius: 50%;
   border: solid 5px #fff;
-  height: 11.5rem;
-  width: 11.5rem;
+  height: 10.5rem;
+  width: 10.5rem;
   background-color: #fff;
   -webkit-transform: translateY(-8rem);
           transform: translateY(-8rem);
@@ -133,7 +135,7 @@ body {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 2.5rem;
+  grid-column-gap: 3rem;
 }
 
 .card__boxes div {
@@ -168,6 +170,6 @@ body {
 }
 
 .p-stats {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=main.css.map */
