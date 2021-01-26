@@ -27,16 +27,22 @@ html {
     box-sizing: border-box;
 }
 
-body {
+body {    
     font-family: $font-default;
     font-weight: 400;
     line-height: 1.6;
     color: $color-neutral;
-    background-color: $color-primary-1;
-    overflow: hidden;
-}
 
-.card {
-    display: grid;
-    grid-template-rows: 13rem 15rem;
+    /*
+    background-image: url(../images/bg-pattern-top.svg),
+                      url(../images/bg-pattern-bottom.svg);
+    background-color: $color-primary-1;
+    background-repeat: no-repeat;
+    background-position: top -50rem left -30rem, bottom -130rem right -30rem;
+    */
+
+    background-color: $color-primary-1;
+    background-size: cover;
+    overflow: hidden;  
+    
 }
