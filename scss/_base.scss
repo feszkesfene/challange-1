@@ -3,6 +3,7 @@ $color-primary-1: hsl(185, 75%, 39%);
 $color-primary-2: hsl(229, 23%, 23%);
 $color-primary-3: hsl(227, 10%, 46%);
 $color-neutral: hsl(0, 0%, 59%);
+$color-neutral-light: hsl(0, 0%, 75%);
 
 //FONT VARIABLES
 $font-default: 'Kumbh Sans', sans-serif;
@@ -31,4 +32,10 @@ body {
     color: $color-neutral;
     background-color: $color-primary-1;
     overflow: hidden;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 8rem min-content 12rem;
+
 }
