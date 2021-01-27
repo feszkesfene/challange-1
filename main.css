@@ -56,6 +56,7 @@ body {
 .card__image {
   background-image: url(/images/bg-pattern-card.svg);
   background-size: cover;
+  background-color: #19a2ae;
 }
 
 .card__user {
